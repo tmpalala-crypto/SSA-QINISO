@@ -1,0 +1,15 @@
+name: ssa_qiniso
+description: SSA-QINISO National Board - QR Factory + 50 Brands + Depts + Map + SAPS
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  qr_flutter: ^4.1.0
+  cupertino_icons: ^1.0.2
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
